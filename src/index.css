@@ -1,0 +1,123 @@
+body {
+  background-color: white;
+}
+
+#all-puppies {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#all-puppies > section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  padding-top: 10px;
+}
+
+#new-player-form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+new-player-form h2 {
+  text-align: center;
+  color: #333;
+}
+
+#new-player-form input,
+#new-player-form select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+#new-player-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#new-player-form button:hover {
+  background-color: #45a049;
+}
+
+#new-player-form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px; 
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s ease;
+  text-transform: uppercase; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+button:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #4CAF50;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  letter-spacing: 2px;
+  border-bottom: 3px solid #4CAF50;
+  padding-bottom: 10px;
+}
+
+#navbar {
+  background-color: #333;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+  gap: 15px; 
+}
+
+#navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: background-color 0.3s ease;
+}
+
+#navbar a:hover {
+  background-color: #4CAF50;
+  border-radius: 4px;
+}
+
+#navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
